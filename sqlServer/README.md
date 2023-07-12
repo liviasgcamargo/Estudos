@@ -18,7 +18,7 @@ https://www.microsoft.com/pt-br/sql-server/sql-server-downloads
 ```
 https://go.microsoft.com/fwlink/p/?linkid=2216019&clcid=0x416&culture=pt-br&country=br
 ```
-3° - Escolher a versão “Básica” após a conclusão do download e aceitar o Termo.
+3° - Escolher a versão “Básica” após a conclusão do download e aceitar os Termos de Uso.
 
 4° - Assim, concluímos a instalação e alocação do servidor na máquina atual. Agora é necessário instalar o SSMS, que é a plataforma na qual iremos realizar as atividades. Através do link a seguir, você entrará no site da Microsoft para obter as instruções de como baixar o SSMS: 
 ```
@@ -34,9 +34,54 @@ https://aka.ms/ssmsfullsetup
 
 8° - Aguarde a instalação completa de todos os Pacotes.
 
-### 3. Comandos Básicos
+### 3. Iniciando o SQL Server
 
-### 4. Referências
+1° - Após logar no servidor, criamos um novo banco de dados na pasta “Baco de Dados”, clicando no botão direito do mouse e escolhemos a opção “Novo Banco de Dados”.
+
+```
+        Banco de Dados => Novo Banco de Dados
+```
+2° - 
+
+  
+### 4. Comandos Básicos
+- CREATE TABLE sintaxe
+    ```
+    CREATE TABLE nomeTabela (  
+        nomeColuna1 int
+        ,nomeColuna2 varchar(50) NOT NULL 
+        ,nomeColuna3 int NOT NULL 
+    );
+    ```
+
+- INSERT INTO sintaxe 
+    ```
+    INSERT INTO [tabela] (
+        [nomeColuna1]
+        ,[nomeColuna2]
+        ,[nomeColuna3]
+    )
+    VALUES (
+        “valorParaColuna1”
+        ,“valorParaColuna2”
+        ,“valorParaColuna3”
+    ) 
+    ```
+- SELECT FROM sintaxe
+    ```
+    SELECT * FROM dbo.nomeTabela;
+    ```
+
+- Como deletar uma tabela
+  ```
+  ```
+
+- Como usar o ROLLBACK
+  ```
+  ```
+
+
+### 5. Referências
 
 - [Comandos Básicos SQL.](https://www.alura.com.br/artigos/como-utilizar-os-comandos-insert-select-update-e-delete-em-sql#:~:text=Para%20mudar%20dados%20de%20uma,sejam%20alteradas%20todas%20as%20linhas.)
   
