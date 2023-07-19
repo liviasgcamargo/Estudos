@@ -39,9 +39,13 @@ https://aka.ms/ssmsfullsetup
 1° - Após logar no servidor, criamos um novo banco de dados na pasta “Baco de Dados”, clicando no botão direito do mouse e escolhemos a opção “Novo Banco de Dados”.
 
 ```
-        Banco de Dados => Novo Banco de Dados
+    Banco de Dados => Novo Banco de Dados
 ```
-2° - 
+2° - Após criar o novo Banco de Dados, clicar duas vezes no mando para que apareça as pastas que o banco possui, e em Tabelas, clicar com o botão direito e escolher a opção Novo, e em seguida Tabela.
+```
+    novoBanco => Tabelas => Novo => Tabela...
+```
+3° - Uma nova tabela será criada, na qual você poderá escrever os nomes que terão as colunas e qual é o tipo de variável que será armazenada em cada uma delas.
 
   
 ### 4. Comandos Básicos
